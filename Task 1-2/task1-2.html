@@ -4,51 +4,73 @@
     </head>
 
     <body>
-        <table>
+        <table cellspacing = "15">
             <tr>
-                <th>Тип булочки:</th>
+                <td>Тип булочки:</td>
 
-                <th>
+                <td>
                     <select>
                         <option>Булочки для гамбургеров</option>
                         <option>Булочки для сэндвичей</option>
                         <option>Булочкий для хот-догов</option>
                     </select> 
-                </th>
+                </td>
             </tr>
 
             <tr>
-                
+                <td>Тип мяса:</td>
+                <td>
+                    <select>
+                    <option>Говядина</option>
+                    <option>Курица</option>
+                    <option>Конина</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Опций:</td>
+                <td>
+                    <input type="checkbox">Помидор<br>
+                    <input type="checkbox">Соленые огурцы
+                </td>
+            </tr>
+
+            <tr>
+                <td>Адрес:</td>
+                <td><input type="text" placeholder="Введите адрес"></td>
+            </tr>
+
+            <tr>
+                <td>Ф.И.О. Заказчика</td>
+                <td>
+                    <input type="text" placeholder="Введите Ф.И.О.">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Желаемое время доставки:</td>
+                <td>
+                    <input type="datetime-local">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Выбор бургера:</td>
+                <td>
+                    <select>
+                        <option>Гамбургер</option>
+                        <option>Чизбургер</option>
+                        <option>Крабсбургер</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><button>Заказать</button></td>
             </tr>
         </table>
 
-        Тип мяса:
-        <select>
-            <option>Говядина</option>
-            <option>Курица</option>
-            <option>Конина</option>
-        </select>
-
-        Опций:
-        <input type="radio" name="option">Помидор<br>
-        <input type="radio" name="option">Соленые огурцы<br><br>
         
-        Адрес:
-        <input type="text" placeholder="Введите адрес"><br><br>
-
-        Ф.И.О. Заказчика
-        <input type="text" placeholder="Введите Ф.И.О."><br><br>
-
-        Желаемое время доставки:
-        <input type="time"><br><br>
-
-        Выбор бургера:
-        <select>
-            <option>Гамбургер</option>
-            <option>Чизбургер</option>
-            <option>Крабсбургер</option>
-        </select><br><br>
-
-        <button>Заказать</button>
     </body>
 </html>
